@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#FF586FC1</color>
+    <color name="red">#E13742</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="gray_dark">#DACECE</color>
+    <color name="netclan_color">#0F3754</color>
+    <color name="netclan_color_light">#4A6D88</color>
+    <color name="netclan_color_dark">#03131E</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="slaty">#708090</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/netclan_color</color>
+
+
+</resources>

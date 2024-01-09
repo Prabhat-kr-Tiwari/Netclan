@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    tools:context=".BusinessDetailFragment.ReviewsFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:textColor="@color/netclan_color"
+            android:textStyle="bold">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Edit Your Review"
+                android:textSize="12sp"
+
+                />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+
+
+                android:isIndicator="true"
+                android:numStars="5"
+                android:progressBackgroundTint="@color/gray_1"
+                android:progressTint="@color/netclan_color"
+                android:rating="4"
+                android:scaleX="0.4"
+                android:scaleY="0.4"
+                android:stepSize="1"
+                android:transformPivotX="20dp"
+                android:transformPivotY="10dp"
+
+                />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+
+                android:background="@drawable/bottom_rectangle_curve"
+                android:fallbackLineSpacing="true"
+
+                android:hint="@string/desedittext_hint"
+                android:padding="20dp"
+                android:textColorHint="@color/netclan_color" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Cancel"
+                    android:textColor="@color/netclan_color"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bottom_rectangle_curve"
+                    android:padding="10dp"
+                    android:text="  Post  "
+                    android:textColor="@color/netclan_color"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

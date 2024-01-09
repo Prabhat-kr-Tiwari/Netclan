@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">NetClan</string>
+    <string name="explore_string">Explore</string>
+    <string name="network_string">Network</string>
+    <string name="chat_string">Chat</string>
+    <string name="contacts_string">Contacts</string>
+    <string name="groups_string">Groups</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edittext_hint"><font size="10">Search</font></string>
+    <string name="desedittext_hint"><font size="10">Describe your Experience</font></string>
+    <string name="status_hint"><font size="15">Hi Community ! I am open to new connections
+    \n
+    \n</font></string>
+
+
+
+    <string-array name="availability">
+          <item>Available |  Hey Let Us Connect</item>
+            <item>Away | Stay Discrete And Watch</item>
+            <item>Busy | Do not Disturb | Will Catch Up Later</item>
+            <item>SOS | Emergency ! Need Assistance ! HELP</item>
+
+        </string-array>
+
+
+    <style name="Custom_Slider_Style" parent="Widget.MaterialComponents.Slider">
+        <item name="materialThemeOverlay">@style/slider_overlay</item>
+    </style>
+
+    <style name="slider_overlay">
+        <item name="colorPrimary">@color/netclan_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="tooltip" parent="Widget.MaterialComponents.Tooltip">
+        <item name="shapeAppearanceOverlay">@style/tooltipShOverylay</item>
+        <item name="backgroundTint">@color/netclan_color</item>
+    </style>
+
+    <style name="tooltipShOverylay">
+
+    </style>
+
+
+</resources>

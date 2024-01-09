@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TabsFragment.MerchantFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/et_searchText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.50"
+            android:background="@drawable/search_text_view_shape"
+            android:drawableStart="@drawable/search__1_"
+            app:queryHint="search"
+            android:hint="@string/edittext_hint"
+            android:singleLine="true"
+            android:textSize="11sp"
+            android:drawablePadding="8dp"
+            app:iconifiedByDefault="false"
+            app:queryBackground="@android:color/transparent"
+            android:padding="10dp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_weight=".50"
+            android:layout_margin="5dp"
+            android:src="@drawable/sliders" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        tools:listitem="@layout/item_merchant"
+
+
+        />
+
+</LinearLayout>
